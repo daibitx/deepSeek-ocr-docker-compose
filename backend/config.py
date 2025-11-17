@@ -4,7 +4,6 @@ from typing import Literal
 
 
 class Settings(BaseSettings):
-    """Configuración de la aplicación"""
     
     # Modelo
     MODEL_NAME: str = os.getenv("MODEL_NAME", "deepseek-ai/DeepSeek-OCR")
